@@ -1,0 +1,23 @@
+{
+  "name": "ee629",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ygunarso/ee629.git"
+  },
+  "author": "Yohanes (Steven) Gunarso",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ygunarso/ee629/issues"
+  },
+  "homepage": "https://github.com/ygunarso/ee629#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
