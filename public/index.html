@@ -2,11 +2,23 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Test</title>
+    <title>YouTube Karaoke</title>
+    <link rel="stylesheet" href="public/site.css">
   </head>
   <body>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/HEXWRTEbj1I??autoplay=1&fs=1&enablejsapi=1&enablecastapi=1" 
-      frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture" allowfullscreen></iframe>
+    <h1>YouTube Karaoke</h1>
+    <p>1. Insert Link</p>
+    <form method="POST" action="/load">
+      <input type="text" name="url"/><br>
+      <button type="submit">Get Video</button>
+    </form>
+    <p>2. Cast-enabled this app</p>
+    <button onclick="castNow()" href="#">Cast Me</button><br>
+    <!-- <google-cast-launcher></google-cast-launcher> -->
+    <p>3. Load Video</p>
+    <button onclick="loadNow()" href="#">Load</button>
+    <script src="public/cast.js"></script>
+    <script src="//www.gstatic.com/cv/js/sender/v1/cast_sender.js?loadCastFramework=1"></script>
+
   </body>
 </html>

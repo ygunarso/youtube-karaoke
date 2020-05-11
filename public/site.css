@@ -1,0 +1,46 @@
+* {
+    font-family: "Roboto", Helvetica, sans-serif;
+    color: #C9CCD3;
+    background-color: #262A2F;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
+h1 {
+    font-size: 40pt;
+}
+
+form {
+    font-size: 20pt;
+}
+
+p {
+    font-size: 20pt;
+}
+
+a {
+    font-size: 20pt;
+    background-color: #C38FFF;
+    border-radius: 20px;
+    color: #262A2F;
+    border: 0;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+input {
+    font-size: 20pt;
+    border-radius: 20px;
+    border: 0;
+    background-color: #4B5162;
+}
+
+button {
+    font-size: 20pt;
+    background-color: #C38FFF;
+    border-radius: 20px;
+    color: #262A2F;
+    border: 0;
+    padding: 5px 20px;
+}
